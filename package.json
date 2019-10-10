@@ -59,9 +59,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:boomerang-io/gatsby-portfolio-dev.git"
+    "url": "git@github.com:boomerang-io/boomerang.useboomerang.io.git"
   },
   "bugs": {
-    "url": "https://github.com/boomerang-io/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/boomerang-io/boomerang.useboomerang.io/issues"
   }
 }
