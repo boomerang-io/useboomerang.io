@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "boomerang.useboomerang.io",
   "private": true,
-  "description": "A simple portfolio for developers",
+  "description": "Boomerang marketing & docs site",
   "version": "0.1.1",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "trbula@us.ibm.com",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "dotenv": "^6.2.0",
@@ -36,7 +36,6 @@
   },
   "keywords": [
     "gatsby",
-    "portfolio",
     "developer"
   ],
   "license": "MIT",
@@ -60,9 +59,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "git@github.com:boomerang-io/gatsby-portfolio-dev.git"
   },
   "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/boomerang-io/gatsby-portfolio-dev/issues"
   }
 }
