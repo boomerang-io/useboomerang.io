@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Header } from 'Theme'
 import { Container, Button } from 'Common'
 import comingSoon from 'Static/illustrations/coming-soon.svg'
-import boomerangIcon from 'Static/images/boomerang.png'
+
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
 export const Intro = () => (
