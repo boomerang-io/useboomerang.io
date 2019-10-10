@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 	padding-bottom: 4rem;
-	//background-image: url('../illustrations/launch.svg');
+	//background-image: url('../illustrations/overlay.svg');
 	background-size: contain;
 	background-position: right top;
 	background-repeat: no-repeat;
@@ -40,7 +40,7 @@ export const Details = styled.div`
 
 	h4 {
 		margin-bottom: 2.5rem;
-		font-size: 32pt;
+		font-size: 24pt;
 		font-weight: 300;
 		color: #242a2e;
 
