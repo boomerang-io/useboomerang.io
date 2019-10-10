@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-	padding: 28rem 0 4rem 0;
-	background-image: url('../illustrations/footer.svg');
+	padding: 14rem 0 4rem 0;
+	background: white;
+	//background-image: url('../illustrations/footer.svg');
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -29,20 +30,26 @@ export const Links = styled.div`
 	align-items: center;
 
 	a {
-		margin: 0 0.5rem;
+		margin: 0 0.625rem;
 
 		img {
 			margin: 0;
 		}
 
-		&:first-child,
+		&:first-child {
+			margin-left: 0;
+		}
 		&:last-child {
-			margin: 0;
+			margin-right: 0;
 		}
 	}
 `
 
 export const Details = styled.div`
+	color: #242a2e;
+	h2 {
+		font-weight: 600;
+	}
 	@media (max-width: 680px) {
 		margin-bottom: 2rem;
 	}

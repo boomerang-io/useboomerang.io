@@ -2,7 +2,8 @@ import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Header } from 'Theme'
 import { Container, Button } from 'Common'
-import dev from 'Static/illustrations/dev.svg'
+import comingSoon from 'Static/illustrations/coming-soon.svg'
+import boomerangIcon from 'Static/images/boomerang.png'
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
 
 export const Intro = () => (
@@ -10,14 +11,14 @@ export const Intro = () => (
 		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>Hi There!</h1>
-				<h4>I’m John and I’m a Backend & Devops engineer!</h4>
-				<Button as={AnchorLink} href="#contact">
+				<h1>Boomerang</h1>
+				<h4>Coming Soon!</h4>
+				{/* <Button as={AnchorLink} href="#contact">
 					Hire me
-				</Button>
+				</Button> */}
 			</Details>
 			<Thumbnail>
-				<img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+				<img src={comingSoon} alt="Coming soon!" />
 			</Thumbnail>
 		</IntroWrapper>
 	</Wrapper>

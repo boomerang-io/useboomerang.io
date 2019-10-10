@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 	padding-bottom: 4rem;
-	background-image: url('../illustrations/overlay.svg');
+	//background-image: url('../illustrations/launch.svg');
 	background-size: contain;
 	background-position: right top;
 	background-repeat: no-repeat;
@@ -30,7 +30,8 @@ export const Details = styled.div`
 	h1 {
 		margin-bottom: 2rem;
 		font-size: 36pt;
-		color: #212121;
+		font-weight: 600;
+		color: #242a2e;
 
 		@media (max-width: 680px) {
 			font-size: 30pt;
@@ -40,8 +41,8 @@ export const Details = styled.div`
 	h4 {
 		margin-bottom: 2.5rem;
 		font-size: 32pt;
-		font-weight: normal;
-		color: #707070;
+		font-weight: 300;
+		color: #242a2e;
 
 		@media (max-width: 680px) {
 			font-size: 26pt;
