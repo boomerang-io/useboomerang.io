@@ -73,7 +73,7 @@ export const SEO = ({
 			<meta name="twitter:site" content={social.twitter} />
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
-			<meta name="twitter:image:src" content={Boomerang} />
+			<meta name="twitter:image" content={Boomerang} />
 			<script type="application/ld+json">{structuredDataOrganization}</script>
 			<link rel="publisher" href={socialLinks.google} />
 			<title>{title}</title>
