@@ -7,7 +7,7 @@ export const Footer = () => (
 	<Wrapper>
 		<Flex as={Container}>
 			<Details>
-				<h2>Boomerang, an IBM open source organization</h2>
+				<h2>Boomerang, a collection of IBM open source projects</h2>
 				<span>
 					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
 					<span aria-label="love" role="img">
