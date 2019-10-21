@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
-	padding: 14rem 0 4rem 0;
+export const Wrapper = styled.footer`
+	padding: 10rem 0 4rem 0;
 	background: white;
 	//background-image: url('../illustrations/footer.svg');
 	background-size: cover;
@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 	background-repeat: no-repeat;
 
 	@media (max-width: 1960px) {
-		padding: 14rem 0 4rem;
+		padding: 10rem 0 4rem;
 	}
 `
 

@@ -1,26 +1,28 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
-	padding-bottom: 4rem;
-	//background-image: url('../illustrations/overlay.svg');
-	background-size: contain;
-	background-position: right top;
-	background-repeat: no-repeat;
+export const Wrapper = styled.header`
+	margin-bottom: 4rem;
 `
 
 export const IntroWrapper = styled.div`
-	padding: 4rem 0;
+	padding: 4rem 0rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	background-image: url('../illustrations/sydney_skyline.svg');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 50%;
 
 	@media (max-width: 960px) {
 		flex-direction: column;
+		padding: 4rem 0 8rem;
+		background-size: 100%;
 	}
 `
 
 export const Details = styled.div`
-	flex: 1;
+	width: 50%;
 
 	@media (max-width: 960px) {
 		width: 100%;

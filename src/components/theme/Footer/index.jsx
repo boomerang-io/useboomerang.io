@@ -10,8 +10,8 @@ export const Footer = () => (
 				<h2>Boomerang, a collection of IBM open source projects</h2>
 				<span>
 					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
-					<span aria-label="love" role="img">
-						💖
+					<span aria-label="robot" role="img">
+						🤖
 					</span>{' '}
 					by{' '}
 					<a

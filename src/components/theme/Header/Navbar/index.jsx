@@ -1,18 +1,17 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Container } from 'Common'
-import boomerangIcon from 'Static/images/boomerang.png'
+// import boomerangIcon from 'Static/images/boomerang.png'
+import BoomerangLogo from '../../../graphics/BoomerangLogo'
 import NavbarLinks from '../NavbarLinks'
 import { Wrapper, Brand, Icon } from './styles'
 
 const Navbar = () => (
 	<Wrapper as={Container}>
-		<Link to="/">
-			<Brand>
-				<Icon src={boomerangIcon} alt="Boomerang Icon" />
-				Boomerang
-			</Brand>
-		</Link>
+		<Brand>
+			<Icon>
+				<BoomerangLogo style={{ height: '2.5rem' }} />
+			</Icon>
+		</Brand>
 		<NavbarLinks desktop />
 	</Wrapper>
 )
