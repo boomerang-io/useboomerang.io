@@ -6,7 +6,7 @@ export const Layout = ({ children }) => (
 	<>
 		<Global />
 		<Content>
-			<div>{children}</div>
+			<main>{children}</main>
 			<Footer />
 		</Content>
 	</>

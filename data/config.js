@@ -3,8 +3,8 @@ module.exports = {
 	logo: 'https://useboomerang.io/favicon/favicon.png',
 	author: 'Boomerang',
 	url: 'https://useboomerang.io',
-	legalName: 'Boomerang, an IBM open source organization',
-	defaultDescription: 'Boomerang, an IBM open source organization',
+	legalName: 'Boomerang, a collection of IBM open source projects',
+	defaultDescription: 'Boomerang, a collection of IBM open source projects',
 	socialLinks: {
 		twitter: 'http://www.twitter.com/useboomerangio',
 		github: 'https://github.com/boomerang-io',
