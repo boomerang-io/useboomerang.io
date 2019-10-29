@@ -5,6 +5,15 @@ import { Wrapper } from './styles'
 
 const NavbarLinks = ({ desktop }) => (
 	<Wrapper desktop={desktop}>
+		<a
+			key="docs"
+			href="https://github.com/boomerang-io/boomerang.docs"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="read our docs"
+		>
+			Docs
+		</a>
 		{social.map(({ id, name, link, icon }) => (
 			<a
 				key={id}
@@ -16,15 +25,6 @@ const NavbarLinks = ({ desktop }) => (
 				<img width="24" src={icon} alt={name} />
 			</a>
 		))}
-		<a
-			key="docs"
-			href="https://github.com/boomerang-io/boomerang.docs"
-			target="_blank"
-			rel="noopener noreferrer"
-			aria-label="read our docs"
-		>
-			Docs
-		</a>
 
 		{
 			// <AnchorLink href="#about">About</AnchorLink>

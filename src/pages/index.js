@@ -11,17 +11,22 @@ export default () => (
 		<Skills
 			title="Bosun"
 			paragraph={(
-				<p>
-					Create policy and rule definitions. Validate dynamically with data.
-					Leveraging{' '}
+    <>
+					Policy-based gating system that combines Policy Definitions with Rules
+					and Metrics Data to validate if specific Gates are passed.
+					<div style={{ paddingBottom: '1rem' }} />
+					Bosun provides a UI to interact with and manage your policies and
+					validation activities. It leverages{' '}
 					<a href="https://www.openpolicyagent.org/">
 						Open Policy Agent (OPA){' '}
-					</a>
+					</a>{' '}
 					at its core.
-				</p>
+				</>
 			)}
 			imgSrc={bosun}
 			listItems={['CI/CD Gates', 'Generic policy validation']}
+			buttonText="Get Started"
+			buttonLink="https://github.com/boomerang-io/boomerang.docs/blob/stable/content/bosun.md"
 		/>
 		<Skills
 			reverse

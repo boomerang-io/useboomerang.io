@@ -40,6 +40,10 @@ export const Details = styled.section`
 		color: #212121;
 	}
 
+	ul {
+		margin-bottom: 2rem;
+	}
+
 	li {
 		font-size: 14pt;
 		font-weight: 300;
