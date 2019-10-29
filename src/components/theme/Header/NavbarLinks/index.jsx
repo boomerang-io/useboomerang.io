@@ -11,11 +11,20 @@ const NavbarLinks = ({ desktop }) => (
 				href={link}
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label={`follow me on ${name}`}
+				aria-label={`follow us on ${name}`}
 			>
 				<img width="24" src={icon} alt={name} />
 			</a>
 		))}
+		<a
+			key="docs"
+			href="https://github.com/boomerang-io/boomerang.docs"
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="read our docs"
+		>
+			Docs
+		</a>
 
 		{
 			// <AnchorLink href="#about">About</AnchorLink>

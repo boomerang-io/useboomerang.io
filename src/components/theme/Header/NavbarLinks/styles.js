@@ -9,6 +9,8 @@ export const Wrapper = styled.div`
 	${({ desktop }) =>
 		desktop
 			? `
+			display: flex;
+			align-items: center;
 			@media (max-width: 960px) {
 					display: none;
 			}
