@@ -64,6 +64,7 @@ export const ButtonLinkSection = styled.div`
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	width: 100%;
 `
 
 export const ButtonLink = styled.a`
