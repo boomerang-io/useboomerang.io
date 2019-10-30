@@ -61,10 +61,8 @@ export const Thumbnail = styled.div`
 `
 
 export const ButtonLinkSection = styled.div`
-	align-items: center;
 	display: flex;
-	justify-content: center;
-	width: 100%;
+	align-items: center;
 `
 
 export const ButtonLink = styled.a`
