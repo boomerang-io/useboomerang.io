@@ -60,9 +60,10 @@ export const Thumbnail = styled.div`
 	}
 `
 
-export const ButtonLinkSection = styled.section`
-	display: flex;
+export const ButtonLinkSection = styled.div`
 	align-items: center;
+	display: flex;
+	justify-content: center;
 `
 
 export const ButtonLink = styled.a`
