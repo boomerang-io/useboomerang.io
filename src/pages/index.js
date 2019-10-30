@@ -23,15 +23,26 @@ export default () => (
 					at its core.
 				</>
 			)}
+			imgAlt="Bosun"
 			imgSrc={bosun}
 			listItems={['CI/CD Gates', 'Generic policy validation']}
-			buttonText="Get Started"
-			buttonLink="https://github.com/boomerang-io/boomerang.docs/blob/stable/content/bosun.md"
+			linkButtons={[
+				{
+					text: 'Get Started',
+					link:
+						'https://github.com/boomerang-io/boomerang.docs/blob/stable/content/bosun.md',
+				},
+				{
+					text: 'Try Me',
+					link: 'https://try.useboomerang.io/public/bosun/web/bosun',
+				},
+			]}
 		/>
 		<Skills
 			reverse
 			title="Flow"
 			paragraph="Cloud-native workflow automation. Coming soon."
+			imgAlt="Flow"
 			imgSrc={comingSoon}
 		/>
 		<Projects />

@@ -1,21 +1,28 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container } from 'Common'
-import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
+import {
+	Wrapper,
+	SkillsWrapper,
+	Details,
+	Thumbnail,
+	ButtonLinkSection,
+	ButtonLink,
+} from './styles'
 
 export const Skills = ({
 	listItems,
 	title,
 	paragraph,
+	imgAlt,
 	imgSrc,
 	reverse,
-	buttonText,
-	buttonLink,
+	linkButtons,
 }) => (
 	<Wrapper id={title}>
 		<SkillsWrapper reverse={reverse} as={Container}>
 			<Thumbnail>
-				<img style={{ height: '20rem' }} src={imgSrc} alt="" />
+				<img style={{ height: '20rem' }} src={imgSrc} alt={imgAlt} />
 			</Thumbnail>
 			<Details reverse={reverse}>
 				<h1>{title}</h1>
@@ -27,26 +34,12 @@ export const Skills = ({
 						))}
 					</ul>
 				)}
-				{buttonText && buttonLink && (
-					<a
-						style={{
-							display: 'flex',
-							justifyContent: 'center',
-							alignItems: 'center',
-							background: '#0072c3',
-							color: 'white',
-							padding: '0.375rem',
-							borderRadius: '0.25rem',
-							width: '8rem',
-							height: '2rem',
-							fontSize: '1rem',
-							letterSpacing: '0.0125rem',
-							margin: '0 auto',
-						}}
-						href={buttonLink}
-					>
-						{buttonText}
-					</a>
+				{linkButtons && (
+					<ButtonLinkSection>
+						{linkButtons.map(item => (
+							<ButtonLink href={item.link}>{item.text}</ButtonLink>
+						))}
+					</ButtonLinkSection>
 				)}
 			</Details>
 		</SkillsWrapper>

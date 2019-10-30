@@ -49,13 +49,6 @@ export const Details = styled.section`
 		font-weight: 300;
 		line-height: 1.1;
 	}
-
-	a {
-		color: #0072c3;
-		&:visited {
-			color: #0072c3;
-		}
-	}
 `
 
 export const Thumbnail = styled.div`
@@ -64,5 +57,28 @@ export const Thumbnail = styled.div`
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
+	}
+`
+
+export const ButtonLinkSection = styled.section`
+	display: flex;
+	align-items: center;
+`
+
+export const ButtonLink = styled.a`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #0072c3;
+	color: white;
+	padding: 0.375rem;
+	border-radius: 0.25rem;
+	width: 8rem;
+	height: 2rem;
+	font-size: 1rem;
+	letter-spacing: 0.0125rem;
+	margin-right: 1rem;
+	&:hover {
+		background: #0058a1;
 	}
 `

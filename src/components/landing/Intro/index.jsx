@@ -1,8 +1,8 @@
 import React from 'react'
 import { Header } from 'Theme'
-import { Container, Button } from 'Common'
+import { Container } from 'Common'
 
-import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles'
+import { Wrapper, IntroWrapper, Details } from './styles'
 
 export const Intro = () => (
 	<Wrapper>
