@@ -60,7 +60,7 @@ export const Thumbnail = styled.div`
 	}
 `
 
-export const ButtonLinkSection = styled.div`
+export const ButtonLinkSection = styled.section`
 	display: flex;
 	align-items: center;
 `
