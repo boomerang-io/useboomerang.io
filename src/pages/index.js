@@ -2,7 +2,7 @@ import React from 'react'
 import { Layout, SEO } from 'Common'
 import { Intro, Skills, Projects } from 'Components/landing'
 import bosun from 'Static/illustrations/bosun.svg'
-import comingSoon from 'Static/illustrations/coming-soon.svg'
+import professor from 'Static/illustrations/professor.svg'
 
 export default () => (
   <Layout>
@@ -41,13 +41,16 @@ export default () => (
     <Skills
       reverse
       title="Flow"
-      paragraph="Cloud-native workflow automation. Work in Progress."
+      paragraph="Cloud-native workflow automation"
       imgAlt="Flow"
-      imgSrc={comingSoon}
-      listItems={['"No-code" workflow creation']}
+      imgSrc={professor}
+      listItems={[
+        'Orchestrate jobs on Kubernetes',
+        '"No-code" workflow creation',
+      ]}
       linkButtons={[
         {
-          text: 'Get Started',
+          text: 'Learn More',
           link:
             'https://github.com/boomerang-io/boomerang.docs/blob/stable/content/flow.md',
         },
