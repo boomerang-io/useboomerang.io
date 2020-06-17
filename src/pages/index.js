@@ -41,7 +41,7 @@ export default () => (
     <Skills
       reverse
       title="Flow"
-      paragraph="Cloud-native workflow automation"
+      paragraph="Cloud-native workflow automation."
       imgAlt="Flow"
       imgSrc={professor}
       listItems={[
