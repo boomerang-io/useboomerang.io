@@ -6,6 +6,12 @@
     "icon": "/icons/github.svg"
   },
   {
+    "id": 2,
+    "name": "Slack",
+    "link": "https://join.slack.com/t/boomerang-io/shared_invite/zt-f1j2szfp-90s6mAud11PxoIKeKCr2og",
+    "icon": "/icons/slack.svg"
+  },
+  {
     "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/useboomerangio",
