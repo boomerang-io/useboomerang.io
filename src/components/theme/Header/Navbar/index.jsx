@@ -6,14 +6,14 @@ import NavbarLinks from '../NavbarLinks'
 import { Wrapper, Brand, Icon } from './styles'
 
 const Navbar = () => (
-	<Wrapper as={Container}>
-		<Brand>
-			<Icon>
-				<BoomerangLogo style={{ height: '2.5rem' }} />
-			</Icon>
-		</Brand>
-		<NavbarLinks desktop />
-	</Wrapper>
+  <Wrapper as={Container}>
+    <Brand>
+      <Icon>
+        <BoomerangLogo style={{ height: '2rem' }} />
+      </Icon>
+    </Brand>
+    <NavbarLinks desktop />
+  </Wrapper>
 )
 
 export default Navbar

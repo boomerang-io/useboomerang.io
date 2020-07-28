@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
-	a {
-		color: #6d6d6d;
-		text-decoration: none;
-	}
+export const Wrapper = styled.nav`
+  a {
+    color: #6d6d6d;
+    text-decoration: none;
+  }
 
-	${({ desktop }) =>
-		desktop
-			? `
+  ${({ desktop }) =>
+    desktop
+      ? `
 			display: flex;
 			align-items: center;
 			@media (max-width: 960px) {
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 					}
 			}
 		`
-			: `
+      : `
 			padding: 3rem;
 			display: flex;
 			flex-direction: column;
