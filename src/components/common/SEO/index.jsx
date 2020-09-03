@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Boomerang from 'Static/images/boomerang.png'
+import Boomerang from '../../../../static/images/boomerang.png'
 import {
 	url,
 	defaultDescription,
@@ -12,7 +12,7 @@ import {
 	legalName,
 	foundingDate,
 	logo,
-} from 'Data'
+} from '../../../../data/config'
 
 export const SEO = ({
 	title = defaultTitle,

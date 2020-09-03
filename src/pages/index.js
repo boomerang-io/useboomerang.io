@@ -1,8 +1,8 @@
 import React from 'react'
-import { Layout, SEO } from 'Common'
-import { Intro, Skills, Projects } from 'Components/landing'
-import bosun from 'Static/illustrations/bosun.svg'
-import professor from 'Static/illustrations/professor.svg'
+import { Layout, SEO } from '../components/common'
+import { Intro, Skills, Projects } from '../components/landing'
+import bosun from '../../static/illustrations/bosun.svg'
+import professor from '../../static/illustrations/professor.svg'
 
 export default () => (
   <Layout>
@@ -29,8 +29,7 @@ export default () => (
       linkButtons={[
         {
           text: 'Get Started',
-          link:
-            'https://github.com/boomerang-io/boomerang.docs/blob/stable/content/bosun.md',
+          link: '/bosun/getting-started',
         },
         {
           text: 'Try Me',
@@ -49,6 +48,10 @@ export default () => (
         '"No-code" workflow creation',
       ]}
       linkButtons={[
+        {
+          text: 'Get Started',
+          link: '/flow/getting-started',
+        },
         {
           text: 'Learn More',
           link:

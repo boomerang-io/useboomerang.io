@@ -1,6 +1,6 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container } from 'Common'
+import { Container } from '../../common'
 import {
   Wrapper,
   SkillsWrapper,

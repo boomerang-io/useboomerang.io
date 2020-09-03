@@ -1,12 +1,11 @@
 import React from 'react'
-import { Header } from 'Theme'
-import { Container } from 'Common'
+import { Header } from '../../theme'
+import { Container } from '../../common'
 
 import { Wrapper, IntroWrapper, Details } from './styles'
 
 export const Intro = () => (
 	<Wrapper>
-		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
 				<h1>Boomerang</h1>

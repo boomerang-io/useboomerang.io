@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from 'Common'
+import { Container } from '../../../common'
 // import boomerangIcon from 'Static/images/boomerang.png'
 import BoomerangLogo from '../../../graphics/BoomerangLogo'
 import NavbarLinks from '../NavbarLinks'
