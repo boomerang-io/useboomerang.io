@@ -7,7 +7,7 @@ import professor from '../../static/illustrations/professor.svg'
 export default () => (
   <Layout>
     <SEO />
-    <Intro />
+    <Intro id="content" />
     <Skills
       title="Bosun"
       paragraph={

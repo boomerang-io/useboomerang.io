@@ -3,7 +3,7 @@ const config = {
     {
       title: 'Boomerang Flow',
       description: 'Cloud native workflow orchestration',
-      path: '/boomerang-flow/introduction/overview',
+      path: '/docs/boomerang-flow/introduction/overview',
       solution: 'boomerang-flow',
       categoryOrder: [
         'introduction',
@@ -13,18 +13,18 @@ const config = {
       ],
     },
   ],
-  homeNavigationLinks: [
+  docsQuickLinks: [
     {
       text: 'Getting Started',
-      path: '/boomerang-flow/introduction/overview',
+      path: '/docs/boomerang-flow/introduction/overview',
     },
     {
       text: 'Tutorials',
-      path: '/boomerang-flow/tutorials/git-hub-issues-bot',
+      path: '/docs/boomerang-flow/tutorials/git-hub-issues-bot',
     },
     {
       text: 'Installing',
-      path: '/boomerang-flow/installing/pre-requisites',
+      path: '/docs/boomerang-flow/installing/pre-requisites',
     },
   ],
 }

@@ -5,7 +5,7 @@
   "version": "0.1.1",
   "author": "trbula@us.ibm.com",
   "dependencies": {
-    "@boomerang-io/gatsby-theme-boomerang": "0.0.2",
+    "@boomerang-io/gatsby-theme-boomerang": "0.0.3",
     "dotenv": "^6.2.0",
     "gatsby": "^2.24.53",
     "gatsby-alias-imports": "1.0.4",

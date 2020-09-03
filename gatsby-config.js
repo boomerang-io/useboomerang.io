@@ -11,7 +11,8 @@ module.exports = {
   pathPrefix: '/BMRG_APP_ROOT_CONTEXT',
   siteMetadata: {
     author: config.author,
-    title: '',
+    title: 'Boomerang',
+    docsContext: '/docs',
     docsLocation:
       'https://github.ibm.com/essentials-core/core.app.docs/tree/main/content',
     githubUrl: 'https://github.ibm.com/essentials-core/core.app.docs',
@@ -19,7 +20,7 @@ module.exports = {
     headerTitle: 'Boomerang Docs',
     description: 'Documentation for Boomerang',
     solutions: contentConfig.solutions,
-    homeNavigationLinks: contentConfig.homeNavigationLinks,
+    docsQuickLinks: contentConfig.docsQuickLinks,
     standaloneMode: true,
     navLinks: [
       {
