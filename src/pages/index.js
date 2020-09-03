@@ -1,6 +1,6 @@
 import React from 'react'
-import { Layout, SEO } from '../components/common'
 import { Intro, Skills, Projects } from '../components/landing'
+import { Layout, SEO } from '../components/common'
 import bosun from '../../static/illustrations/bosun.svg'
 import professor from '../../static/illustrations/professor.svg'
 
