@@ -1,10 +1,35 @@
 const config = {
   solutions: [
     {
+      title: 'Boomerang',
+      description:
+        'Collection of open-source projects focused on cloud-native development and automation',
+      path: '/docs/boomerang/introduction/overview',
+      solution: 'boomerang',
+      categoryOrder: [
+        'introduction',
+        'architecture',
+        'getting-to-know',
+        'installing',
+      ],
+    },
+    {
       title: 'Boomerang Flow',
-      description: 'Cloud native workflow orchestration',
+      description: 'Cloud-native workflow orchestration',
       path: '/docs/boomerang-flow/introduction/overview',
       solution: 'boomerang-flow',
+      categoryOrder: [
+        'introduction',
+        'architecture',
+        'getting-to-know',
+        'installing',
+      ],
+    },
+    {
+      title: 'Boomerang Bosun',
+      description: 'Policy-based CICD gating',
+      path: '/docs/boomerang-flow/introduction/overview',
+      solution: 'boomerang-bosun',
       categoryOrder: [
         'introduction',
         'architecture',

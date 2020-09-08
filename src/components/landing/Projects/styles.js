@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   padding: 4rem 0 8rem;
+  h2 {
+    margin: 1rem 0;
+    font-weight: 500;
+  }
 `
 
 export const Grid = styled.div`

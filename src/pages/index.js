@@ -1,6 +1,7 @@
 import React from 'react'
 import { Intro, Skills, Projects } from '../components/landing'
 import { Layout, SEO } from '../components/common'
+import { Launch16 } from '@carbon/icons-react'
 import bosun from '../../static/illustrations/bosun.svg'
 import professor from '../../static/illustrations/professor.svg'
 
@@ -29,11 +30,12 @@ export default () => (
       linkButtons={[
         {
           text: 'Get Started',
-          link: '/bosun/getting-started',
+          link: '/docs/boomerang-bosun/introduction/getting-started',
         },
         {
           text: 'Try Me',
           link: 'https://try.useboomerang.io/public/bosun/web/bosun',
+          renderIcon: Launch16,
         },
       ]}
     />
@@ -45,17 +47,12 @@ export default () => (
       imgSrc={professor}
       listItems={[
         'Orchestrate jobs on Kubernetes',
-        '"No-code" workflow creation',
+        '"Low-code" workflow creation',
       ]}
       linkButtons={[
         {
           text: 'Get Started',
-          link: '/flow/getting-started',
-        },
-        {
-          text: 'Learn More',
-          link:
-            'https://github.com/boomerang-io/boomerang.docs/blob/stable/content/flow.md',
+          link: '/docs/boomerang-flow/introduction/getting-started',
         },
       ]}
     />

@@ -18,7 +18,7 @@ module.exports = {
     githubUrl: 'https://github.ibm.com/essentials-core/core.app.docs',
     siteUrl: 'https://launch.boomerangplatform.net/docs',
     headerTitle: 'Boomerang Docs',
-    description: 'Documentation for Boomerang',
+    description: 'Documentation for Boomerang OSS',
     solutions: contentConfig.solutions,
     docsQuickLinks: contentConfig.docsQuickLinks,
     standaloneMode: true,
@@ -30,10 +30,6 @@ module.exports = {
       {
         name: 'Docs',
         url: '/docs',
-      },
-      {
-        name: 'Contact',
-        url: '/contact',
       },
     ],
   },

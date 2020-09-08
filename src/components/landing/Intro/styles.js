@@ -22,7 +22,7 @@ export const IntroWrapper = styled.div`
   }
 `
 
-export const Details = styled.div`
+export const Details = styled.hgroup`
   width: 50%;
 
   @media (max-width: 960px) {
@@ -41,7 +41,7 @@ export const Details = styled.div`
     }
   }
 
-  h4 {
+  h2 {
     margin-bottom: 2.5rem;
     font-size: 24pt;
     font-weight: 300;

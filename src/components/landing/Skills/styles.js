@@ -27,8 +27,9 @@ export const Details = styled.section`
   }
 
   h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: 26pt;
+    font-weight: 500;
     color: #212121;
   }
 
@@ -41,13 +42,19 @@ export const Details = styled.section`
   }
 
   ul {
+    margin-left: 1.5rem;
     margin-bottom: 2rem;
+    list-style: initial;
   }
 
   li {
     font-size: 14pt;
     font-weight: 300;
-    line-height: 1.1;
+    line-height: 1.3;
+  }
+
+  a {
+    font-size: 1rem;
   }
 `
 
@@ -63,6 +70,9 @@ export const Thumbnail = styled.div`
 export const ButtonLinkSection = styled.section`
   display: flex;
   align-items: center;
+  * + * {
+    margin-left: 1rem;
+  }
 `
 
 export const ButtonLink = styled.a`

@@ -9,7 +9,7 @@ export const Intro = () => (
 		<IntroWrapper as={Container}>
 			<Details>
 				<h1>Boomerang</h1>
-				<h4>Open source, cloud-native projects for CI/CD and automation</h4>
+				<h2>Open source, cloud-native projects for CI/CD and automation</h2>
 			</Details>
 		</IntroWrapper>
 	</Wrapper>
