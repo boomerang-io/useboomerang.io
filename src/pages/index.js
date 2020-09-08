@@ -1,7 +1,7 @@
 import React from 'react'
 import { Intro, Skills, Projects } from '../components/landing'
 import { Layout, SEO } from '../components/common'
-import { Launch16 } from '@carbon/icons-react'
+import Launch16 from '@carbon/icons-react/es/launch/16'
 import bosun from '../../static/illustrations/bosun.svg'
 import professor from '../../static/illustrations/professor.svg'
 
