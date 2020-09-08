@@ -1,13 +1,10 @@
 import React from 'react'
-import { Footer } from 'Theme'
-import { Global, Content } from './styles'
+import { Footer } from '../../theme'
+import { Content } from './styles'
 
 export const Layout = ({ children }) => (
-	<>
-		<Global />
-		<Content>
-			<main>{children}</main>
-			<Footer />
-		</Content>
-	</>
+	<Content>
+		<main>{children}</main>
+		<Footer />
+	</Content>
 )

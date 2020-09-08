@@ -1,6 +1,8 @@
 import React from 'react'
+import Link from "@boomerang-io/gatsby-theme-boomerang/src/components/Link"
+import { Button } from "@boomerang-io/carbon-addons-boomerang-react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container } from 'Common'
+import { Container } from '../../common'
 import {
   Wrapper,
   SkillsWrapper,
@@ -37,7 +39,7 @@ export const Skills = ({
         {linkButtons && (
           <ButtonLinkSection>
             {linkButtons.map(item => (
-              <ButtonLink href={item.link}>{item.text}</ButtonLink>
+              <Link to={item.link}><Button size="field" renderIcon={item.renderIcon}>{item.text}</Button></Link>
             ))}
           </ButtonLinkSection>
         )}

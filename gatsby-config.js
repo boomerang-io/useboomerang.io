@@ -1,96 +1,76 @@
 const path = require('path')
 const config = require('./data/config')
+const contentConfig = require('./contentConfig')
+console.log(path.resolve(__dirname, 'src/components'))
 
 require('dotenv').config({
-	path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
-	siteMetadata: {
-		title: config.defaultTitle,
-		description: config.defaultDescription,
-		author: config.author,
-	},
-	plugins: [
-		'gatsby-plugin-react-helmet',
-		'gatsby-plugin-styled-components',
-		/* {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'assets',
-        path: '${__dirname}/src/assets',
+  pathPrefix: '/BMRG_APP_ROOT_CONTEXT',
+  siteMetadata: {
+    author: config.author,
+    title: 'Boomerang',
+    docsContext: '/docs',
+    docsLocation:
+      'https://github.ibm.com/essentials-core/core.app.docs/tree/main/content',
+    githubUrl: 'https://github.ibm.com/essentials-core/core.app.docs',
+    siteUrl: 'https://launch.boomerangplatform.net/docs',
+    headerTitle: 'Boomerang Docs',
+    description: 'Documentation for Boomerang OSS',
+    solutions: contentConfig.solutions,
+    docsQuickLinks: contentConfig.docsQuickLinks,
+    standaloneMode: true,
+    navLinks: [
+      {
+        name: 'Home',
+        url: '/',
       },
-    }, */
-		'gatsby-transformer-sharp',
-		'gatsby-plugin-sharp',
-		{
-			resolve: 'gatsby-source-graphql',
-			options: {
-				typeName: 'GitHub',
-				fieldName: 'github',
-				url: 'https://api.github.com/graphql',
-				headers: {
-					Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-				},
-				fetchOptions: {},
-			},
-		},
-		{
-			resolve: 'gatsby-plugin-nprogress',
-			options: {
-				color: config.themeColor,
-				showSpinner: false,
-			},
-		},
-		{
-			resolve: 'gatsby-plugin-google-analytics',
-			options: {
-				trackingId: config.googleAnalyticsID,
-				head: true,
-			},
-		},
-		{
-			resolve: 'gatsby-plugin-favicon',
-			options: {
-				logo: './static/favicon/favicon.png',
-				injectHTML: true,
-				icons: {
-					android: true,
-					appleIcon: true,
-					appleStartup: true,
-					coast: false,
-					favicons: true,
-					firefox: true,
-					twitter: true,
-					yandex: false,
-					windows: false,
-				},
-			},
-		},
-		// {
-		// 	resolve: 'gatsby-plugin-manifest',
-		// 	options: {
-		// 		name: config.defaultTitle,
-		// 		short_name: 'starter',
-		// 		start_url: '/',
-		// 		background_color: config.backgroundColor,
-		// 		theme_color: config.themeColor,
-		// 		display: 'minimal-ui',
-		// 		icon: './static/favicon/favicon.png',
-		// 	},
-		// },
-		'gatsby-plugin-offline',
-		{
-			resolve: `gatsby-plugin-alias-imports`,
-			options: {
-				alias: {
-					Components: path.resolve(__dirname, 'src/components'),
-					Common: path.resolve(__dirname, 'src/components/common'),
-					Static: path.resolve(__dirname, 'static/'),
-					Theme: path.resolve(__dirname, 'src/components/theme'),
-					Data: path.resolve(__dirname, 'data/config'),
-				},
-			},
-		},
-	],
+      {
+        name: 'Docs',
+        url: '/docs',
+      },
+    ],
+  },
+  plugins: [
+    {
+      resolve: '@boomerang-io/gatsby-theme-boomerang',
+      options: { lunrSearch: true },
+    },
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GitHub',
+        fieldName: 'github',
+        url: 'https://api.github.com/graphql',
+        headers: {
+          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        },
+        fetchOptions: {},
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: config.googleAnalyticsID,
+        head: true,
+      },
+    },
+    // {
+    // 	resolve: 'gatsby-plugin-manifest',
+    // 	options: {
+    // 		name: config.defaultTitle,
+    // 		short_name: 'starter',
+    // 		start_url: '/',
+    // 		background_color: config.backgroundColor,
+    // 		theme_color: config.themeColor,
+    // 		display: 'minimal-ui',
+    // 		icon: './static/favicon/favicon.png',
+    // 	},
+    // },
+    'gatsby-plugin-offline',
+  ],
 }
