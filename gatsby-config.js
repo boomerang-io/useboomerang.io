@@ -14,9 +14,9 @@ module.exports = {
     title: 'Boomerang',
     docsContext: '/docs',
     docsLocation:
-      'https://github.ibm.com/essentials-core/core.app.docs/tree/main/content',
-    githubUrl: 'https://github.ibm.com/essentials-core/core.app.docs',
-    siteUrl: 'https://launch.boomerangplatform.net/docs',
+      'https://github.com/boomerang-io/useboomerang.io/tree/main/content',
+    githubUrl: 'https://github.com/boomerang-io/useboomerang.io',
+    siteUrl: 'https://www.useboomerang.io/',
     headerTitle: 'Boomerang Docs',
     description: 'Documentation for Boomerang OSS',
     solutions: contentConfig.solutions,
