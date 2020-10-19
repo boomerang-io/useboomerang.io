@@ -6,7 +6,7 @@
   "author": "trbula@us.ibm.com",
   "dependencies": {
     "@boomerang-io/carbon-addons-boomerang-react": "^0.0.19",
-    "@boomerang-io/gatsby-theme-boomerang": "0.0.6",
+    "@boomerang-io/gatsby-theme-boomerang": "0.0.8",
     "@carbon/icons-react": "^10.17.0",
     "dotenv": "^6.2.0",
     "gatsby": "^2.24.53",
