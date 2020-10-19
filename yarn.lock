@@ -1017,10 +1017,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@boomerang-io/carbon-addons-boomerang-react@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@boomerang-io/carbon-addons-boomerang-react/-/carbon-addons-boomerang-react-0.0.12.tgz#977466a0ef59c1bc478b88ef9e58cab84c6bbd4d"
-  integrity sha512-Ktd5xT535xzGGR/PMULN6KvJBwPUCnwlD8I69/f4oKwFS/ZF7xrxh9vj340nt9wVZQGSIR3JHszyHa9K+b9Z5Q==
+"@boomerang-io/carbon-addons-boomerang-react@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@boomerang-io/carbon-addons-boomerang-react/-/carbon-addons-boomerang-react-0.0.17.tgz#b3e0d6555f6ba9230f1f9d82bfbd67f857df7e47"
+  integrity sha512-YVvVxA69h1KYEHz7/wN7kjwFYGU6uW3tS8Dmv8OHx6OyLtwqUpfPh9t7M7WOPqGdzUj5XV8d391A5wcWxL9I3g==
   dependencies:
     "@carbon/elements" "10.12.0"
     "@carbon/themes" "10.12.0"
@@ -1043,10 +1043,10 @@
     warning "^4.0.3"
     window-or-global "^1.0.1"
 
-"@boomerang-io/carbon-addons-boomerang-react@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@boomerang-io/carbon-addons-boomerang-react/-/carbon-addons-boomerang-react-0.0.14.tgz#aa81fd824d2b917b7922d577729e8195fa770449"
-  integrity sha512-O98f5X72fjAT8ajLHIOkF+XPzSA/HmhX5vTKB8LMqYIUi3hgarSwQPxfLMUNjhBLlEibyd9KjyiOZ9wKrKyqIg==
+"@boomerang-io/carbon-addons-boomerang-react@^0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@boomerang-io/carbon-addons-boomerang-react/-/carbon-addons-boomerang-react-0.0.19.tgz#62eddbec7197dcda93712b64a5fc9a023ccd97a3"
+  integrity sha512-ZXTR3KfYOTP6xRQ2cYhT13B5oFLrDecqH/d8ABxg5+Lc+pteyfy+t/KqTbArVyNRaJgl1XHil+wDqxhBvBeJaQ==
   dependencies:
     "@carbon/elements" "10.12.0"
     "@carbon/themes" "10.12.0"
@@ -1069,12 +1069,12 @@
     warning "^4.0.3"
     window-or-global "^1.0.1"
 
-"@boomerang-io/gatsby-theme-boomerang@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@boomerang-io/gatsby-theme-boomerang/-/gatsby-theme-boomerang-0.0.3.tgz#f3c40c03401d6553ea1b3b5fbe769ceab9f91558"
-  integrity sha512-S6yqPcgGIfZP7yMMaY4dgvUaUevWrxvAFx9Fvu23NueDlxRitQLdIj0W8LAx62r+AZpyx2MkRiIPrW7WiP1Z2w==
+"@boomerang-io/gatsby-theme-boomerang@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@boomerang-io/gatsby-theme-boomerang/-/gatsby-theme-boomerang-0.0.6.tgz#e70aad0b676365a24f5325d68eb8f178780c19d3"
+  integrity sha512-+zwXGR1+Kr2etjKFvbNQHO5iWqfjYQGHFRfORZchdhzSk4VL3QfI5YBKCvxrZVAr77xgbKqboDyT4uHTLtrJlA==
   dependencies:
-    "@boomerang-io/carbon-addons-boomerang-react" "0.0.12"
+    "@boomerang-io/carbon-addons-boomerang-react" "0.0.17"
     "@boomerang-io/utils" "0.0.1"
     "@carbon/icons-react" "10.16.0"
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search" "^2.4.2"
