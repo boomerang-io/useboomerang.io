@@ -1050,10 +1050,10 @@
     warning "^4.0.3"
     window-or-global "^1.0.1"
 
-"@boomerang-io/gatsby-theme-boomerang@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@boomerang-io/gatsby-theme-boomerang/-/gatsby-theme-boomerang-0.0.8.tgz#da2af01f661c406e7bf21b47bc67ad6067a0d605"
-  integrity sha512-zNif+PHBOfiwjwcOeZCB8WBzDlQFMEZPbdy2loc59ewz+Uie0r3UYtntaxRC4kQrFErGGBHsLa5Ni8i/PwQH/w==
+"@boomerang-io/gatsby-theme-boomerang@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@boomerang-io/gatsby-theme-boomerang/-/gatsby-theme-boomerang-0.0.10.tgz#4acb9e1d0b91840b0e01c0d8623e7eaca234f083"
+  integrity sha512-0klf6o3/0gBCgQjqCJ7l77Trsr5E+b2ZrwH247GhzSddUIN3xeePx5thMWQVqr5CCyAQ8pIA11LzIrHixGDKeA==
   dependencies:
     "@boomerang-io/carbon-addons-boomerang-react" "0.0.19"
     "@boomerang-io/utils" "0.0.1"
