@@ -7,10 +7,7 @@ const config = {
       path: '/docs/boomerang/introduction/overview',
       solution: 'boomerang',
       categoryOrder: [
-        'introduction',
-        'architecture',
-        'getting-to-know',
-        'installing',
+        'introduction'
       ],
     },
     {
@@ -28,13 +25,11 @@ const config = {
     {
       title: 'Boomerang Bosun',
       description: 'Policy-based CICD gating',
-      path: '/docs/boomerang-flow/introduction/overview',
+      path: '/docs/boomerang-bosun/introduction/overview',
       solution: 'boomerang-bosun',
       categoryOrder: [
         'introduction',
-        'architecture',
-        'getting-to-know',
-        'installing',
+        'architecture'
       ],
     },
   ],

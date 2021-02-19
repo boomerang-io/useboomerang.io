@@ -8,8 +8,6 @@ index: 0
 
 Boomerang is a collection of open source projects focused on cloud-native development and automation.
 
-
-
 ## Projects
 
 Visit our individual projects to learn more.
