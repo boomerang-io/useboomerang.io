@@ -17,11 +17,12 @@ module.exports = {
       'https://github.com/boomerang-io/useboomerang.io/tree/main/content',
     githubUrl: 'https://github.com/boomerang-io/useboomerang.io',
     siteUrl: 'https://www.useboomerang.io/',
-    headerTitle: 'Boomerang Docs',
-    description: 'Documentation for Boomerang OSS',
-    solutions: contentConfig.solutions,
-    docsQuickLinks: contentConfig.docsQuickLinks,
+    homeTitle: "Boomerang",
+    homeDescription: "Documentation for Boomerang and the IBM Automation Platform",
+    linksConfig: contentConfig.linksConfig,
+    solutionsConfig: contentConfig.solutionsConfig,
     standaloneMode: true,
+    socialLinks: config.socialLinks,
     navLinks: [
       {
         name: 'Home',
@@ -52,25 +53,12 @@ module.exports = {
         fetchOptions: {},
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: config.googleAnalyticsID,
-        head: true,
-      },
-    },
     // {
-    // 	resolve: 'gatsby-plugin-manifest',
-    // 	options: {
-    // 		name: config.defaultTitle,
-    // 		short_name: 'starter',
-    // 		start_url: '/',
-    // 		background_color: config.backgroundColor,
-    // 		theme_color: config.themeColor,
-    // 		display: 'minimal-ui',
-    // 		icon: './static/favicon/favicon.png',
-    // 	},
+    //   resolve: 'gatsby-plugin-google-analytics',
+    //   options: {
+    //     trackingId: config.googleAnalyticsID,
+    //     head: true,
+    //   },
     // },
-    'gatsby-plugin-offline',
   ],
 }
