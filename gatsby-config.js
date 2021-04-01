@@ -18,7 +18,7 @@ module.exports = {
     githubUrl: 'https://github.com/boomerang-io/useboomerang.io',
     siteUrl: 'https://www.useboomerang.io/',
     homeTitle: "Boomerang",
-    homeDescription: "Documentation for Boomerang and the IBM Automation Platform",
+    homeDescription: "Documentation for Boomerang Flow and Boomerang Bosun",
     linksConfig: contentConfig.linksConfig,
     solutionsConfig: contentConfig.solutionsConfig,
     standaloneMode: true,
