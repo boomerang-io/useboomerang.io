@@ -4,16 +4,16 @@ const config = {
       title: 'Quick links',
       links: [
         {
-          title: 'Getting Started',
+          title: 'Getting Started with Boomerang Flow',
           path: '/docs/boomerang-flow/introduction/overview',
         },
         {
-          title: 'Tutorials',
+          title: 'Tutorials for how to use Boomerang Flow',
           path: '/docs/boomerang-flow/tutorials/git-hub-issues-bot',
         },
         {
-          title: 'Installing',
-          path: '/docs/boomerang-flow/installing/pre-requisites',
+          title: 'Installing your own Boomerang Flow',
+          path: '/docs/boomerang-flow/installing/installing',
         },
       ],
     },
@@ -21,10 +21,36 @@ const config = {
       title: 'Discover Boomerang Flow',
       links: [
         {
-          title: 'Boomerang Flow',
-          description: 'Cloud-native workflow orchestration',
-          path: '/docs/boomerang-flow/introduction/overview',
-          image: 'flow',
+          title: "Introduction",
+          description:
+            "Get to know Boomerang Flow, an event driven cloud-native workflow orchestration engine.",
+          path: "/docs/boomerang-flow/introduction/overview",
+        },
+        {
+          title: "Architecture",
+          description:
+            "Provides the architecture, the patterns, technologies, and implementation.",
+          path: "/docs/boomerang-flow/architecture/overview",
+        },
+        {
+          title: "Getting to Know",
+          description: "Familiarize yourself with the functionality available",
+          path: "/docs/boomerang-flow/getting-to-know/workflows",
+        },
+        {
+          title: "How to Guide",
+          description: "Deep dive into how to perform different functions.",
+          path: "/docs/boomerang-flow/how-to-guide/managing-workflows",
+        },
+        {
+          title: "Installing",
+          description: "Learn what it takes, and how, to install your own instance.",
+          path: "/docs/boomerang-flow/installing/installing",
+        },
+        {
+          title: "Tutorials",
+          description: "Explore practical examples on how to implement.",
+          path: "/docs/boomerang-flow/tutorials/github-issues-bot",
         },
       ],
     },
@@ -32,19 +58,21 @@ const config = {
       title: 'Discover Boomerang Bosun',
       links: [
         {
-          title: 'Boomerang Bosun',
-          description: 'Policy-based CICD gating',
-          path: '/docs/boomerang-bosun/introduction/overview',
+          title: "Introduction",
+          description:
+            "Get to know Boomerang Bosun, a policy-based continuous delivery gating system.",
+          path: "/docs/boomerang-bosun/introduction/overview",
+        },
+        {
+          title: "Architecture",
+          description:
+            "Provides the architecture, the patterns, technologies, and implementation.",
+          path: "/docs/boomerang-bosun/architecture/overview",
         },
       ],
     },
   ],
   solutionsConfig: [
-    {
-      title: 'Boomerang',
-      solution: 'boomerang',
-      categoryOrder: ['introduction'],
-    },
     {
       title: 'Boomerang Flow',
       solution: 'boomerang-flow',
@@ -63,8 +91,8 @@ const config = {
   ],
   footerLinksConfig: [
     {
-      link: 'https://www.useboomerang.io//',
-      title: 'useboomerang.io/',
+      link: 'https://www.useboomerang.io/',
+      title: 'useboomerang.io',
       type: 'website',
     },
     {
