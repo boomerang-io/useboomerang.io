@@ -17,10 +17,11 @@ module.exports = {
       'https://github.com/boomerang-io/useboomerang.io/tree/main/content',
     githubUrl: 'https://github.com/boomerang-io/useboomerang.io',
     siteUrl: 'https://www.useboomerang.io/',
-    homeTitle: "Boomerang",
-    homeDescription: "Documentation for Boomerang Flow and Boomerang Bosun",
+    homeTitle: 'Boomerang',
+    homeDescription: 'Documentation for Boomerang Flow and Boomerang Bosun',
     linksConfig: contentConfig.linksConfig,
     solutionsConfig: contentConfig.solutionsConfig,
+    footerLinksConfig: contentConfig.footerLinksConfig,
     standaloneMode: true,
     socialLinks: config.socialLinks,
     navLinks: [
