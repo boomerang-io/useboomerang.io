@@ -5,9 +5,10 @@
   "version": "0.1.1",
   "author": "trbula@us.ibm.com",
   "dependencies": {
-    "@boomerang-io/carbon-addons-boomerang-react": "^0.0.19",
-    "@boomerang-io/gatsby-theme-boomerang": "0.0.10",
+    "@boomerang-io/carbon-addons-boomerang-react": "^1.1.7",
+    "@boomerang-io/gatsby-theme-boomerang": "0.1.0-beta.17",
     "@carbon/icons-react": "^10.17.0",
+    "babel-preset-gatsby": "^1.2.0",
     "dotenv": "^6.2.0",
     "gatsby": "^2.24.53",
     "gatsby-alias-imports": "1.0.4",

@@ -46,7 +46,7 @@ I highly recommend you check this [repository](https://github.com/imorente/gatsb
 Installing the dependencies
 
 ```bash
-yarn
+yarn install
 ```
 
 ## Start the dev server
