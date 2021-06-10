@@ -1,0 +1,124 @@
+$header-color: #061727;
+$transition-height: 6rem;
+
+.darkToWhite {
+  height: $transition-height;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.darkToWhiteRectangle {
+  height: 100%;
+  position: absolute;
+  left: -1rem;
+  width: calc(100% + 5rem);
+}
+
+.darkToWhiteFirst {
+  @extend .darkToWhiteRectangle;
+  background-color: $header-color;
+  top: -3rem;
+  transform: rotate(-3deg);
+}
+
+.darkToWhiteSecond {
+  @extend .darkToWhiteRectangle;
+  background-color: lighten($header-color, 40%);
+  top: -2rem;
+  transform: rotate(-2deg);
+}
+
+.darkToWhiteThird {
+  @extend .darkToWhiteRectangle;
+  background-color: lighten($header-color, 70%);
+  top: -1rem;
+  transform: rotate(-1deg);
+}
+
+.whiteToDark {
+  height: $transition-height;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.whiteToDarkRectangle {
+  height: 100%;
+  position: absolute;
+  left: -1rem;
+  width: calc(100% + 5rem);
+}
+
+.whiteToDarkFirst {
+  @extend .whiteToDarkRectangle;
+  background-color: $header-color;
+  bottom: -5rem;
+  transform: rotate(1deg);
+}
+
+.whiteToDarkSecond {
+  @extend .whiteToDarkRectangle;
+  background-color: lighten($header-color, 40%);
+  bottom: -4rem;
+  transform: rotate(2deg);
+}
+
+.whiteToDarkThird {
+  @extend .whiteToDarkRectangle;
+  background-color: lighten($header-color, 70%);
+  bottom: -3rem;
+  transform: rotate(3deg);
+}
+
+@media (min-width: 120rem) {
+  .darkToWhiteFirst {
+    transform: rotate(-2deg);
+  }
+  
+  .darkToWhiteSecond {
+    transform: rotate(-1.5deg);
+  }
+  
+  .darkToWhiteThird {
+    transform: rotate(-1deg);
+  }
+
+  .whiteToDarkFirst {
+    transform: rotate(1deg);
+  }
+  
+  .whiteToDarkSecond {
+    transform: rotate(1.5deg);
+  }
+  
+  .whiteToDarkThird {
+    transform: rotate(2deg);
+  }
+}
+
+@media (min-width: 180rem) {
+  .darkToWhiteFirst {
+    transform: rotate(-1deg);
+  }
+  
+  .darkToWhiteSecond {
+    transform: rotate(-0.66deg);
+  }
+  
+  .darkToWhiteThird {
+    transform: rotate(-0.33deg);
+  }
+
+  .whiteToDarkFirst {
+    transform: rotate(0.33deg);
+  }
+  
+  .whiteToDarkSecond {
+    transform: rotate(0.66deg);
+  }
+  
+  .whiteToDarkThird {
+    transform: rotate(1deg);
+  }
+}
