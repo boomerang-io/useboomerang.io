@@ -1,9 +1,9 @@
 import React from 'react'
 import { Intro, Skills, Projects } from '../components/landing'
 import { Layout, SEO } from '../components/common'
+import workflowEditor from '../components/graphics/img/WorkflowEditor.png'
 import Launch16 from '@carbon/icons-react/es/launch/16'
 import bosun from '../../static/illustrations/bosun.svg'
-import professor from '../../static/illustrations/professor.svg'
 
 export default () => (
   <Layout>
@@ -21,7 +21,7 @@ export default () => (
         </>
       }
       imgAlt="Flow"
-      imgSrc={professor}
+      imgSrc={workflowEditor}
       listItems={[
         'Orchestrate jobs on Kubernetes',
         'A "no/low-code" experience for non-technical users',
@@ -29,12 +29,16 @@ export default () => (
       ]}
       linkButtons={[
         {
-          text: 'View Page',
+          text: 'Overview',
           link: '/flow',
         },
         {
-          text: 'Get Started',
+          text: 'Documentation',
           link: '/docs/boomerang-flow/introduction/getting-started',
+        },
+        {
+          text: 'Demo',
+          link: '/flow/#demo',
         },
       ]}
     />

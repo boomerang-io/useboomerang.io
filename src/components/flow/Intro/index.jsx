@@ -1,12 +1,14 @@
 import React from 'react'
 import SectionTransition from '../SectionTransition'
 import Link from "@boomerang-io/gatsby-theme-boomerang/src/components/Link"
-import { Button } from "@boomerang-io/carbon-addons-boomerang-react"
+import { Button, Loading } from "@boomerang-io/carbon-addons-boomerang-react"
 import FlowLogo from '../../graphics/FlowLogo'
 import ArrowRight16 from '@carbon/icons-react/es/arrow--right/16'
 import * as styles from './Intro.module.scss'
 
 export const Intro = () => {
+  const [videoIsLoading, setVideoIsLoading] = React.useState(true);
+
   return (
     <div className={styles.container}>
       <SectionTransition />
@@ -28,10 +30,14 @@ export const Intro = () => {
           </Link>
         </div>
         <div className={styles.rightContent}>
+          {videoIsLoading && <div className={styles.videoLoading}><Loading withOverlay={false} /></div>}
           <iframe 
+            allowFullScreen
             className={styles.youtubeVideo}
             frameborder="0"
-            src="https://www.youtube.com/embed/-lOninwMoz4"
+            loading="lazy"
+            onLoad={() => setVideoIsLoading(false)}
+            src="https://www.youtube.com/embed/-lOninwMoz4?start=0"
           />
         </div>
       </div>

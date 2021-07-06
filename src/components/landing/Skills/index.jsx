@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from "@boomerang-io/gatsby-theme-boomerang/src/components/Link"
 import { Button } from "@boomerang-io/carbon-addons-boomerang-react"
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container } from '../../common'
 import {
   Wrapper,
@@ -9,7 +8,6 @@ import {
   Details,
   Thumbnail,
   ButtonLinkSection,
-  ButtonLink,
 } from './styles'
 
 export const Skills = ({
