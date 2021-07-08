@@ -8,11 +8,12 @@ export const Wrapper = styled.section`
 `
 
 export const SkillsWrapper = styled.div`
-  padding: 4rem 0;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
+  border-bottom: 0.0625rem solid #c1c7cd;
+  display: flex;
   flex-direction: ${props => (props.reverse ? 'row-reverse' : 'row')};
+  justify-content: space-between;
+  padding: 4rem 0;
   @media (max-width: 960px) {
     flex-direction: column;
   }

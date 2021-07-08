@@ -30,6 +30,10 @@ module.exports = {
         url: '/',
       },
       {
+        name: 'Flow',
+        url: '/flow',
+      },
+      {
         name: 'Docs',
         url: '/docs',
       },

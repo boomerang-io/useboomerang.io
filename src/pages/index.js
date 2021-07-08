@@ -1,14 +1,47 @@
 import React from 'react'
 import { Intro, Skills, Projects } from '../components/landing'
 import { Layout, SEO } from '../components/common'
+import workflowEditor from '../components/graphics/img/WorkflowEditor.png'
 import Launch16 from '@carbon/icons-react/es/launch/16'
 import bosun from '../../static/illustrations/bosun.svg'
-import professor from '../../static/illustrations/professor.svg'
 
 export default () => (
   <Layout>
     <SEO />
     <Intro id="content" />
+    <Skills
+      reverse
+      title="Flow"
+      paragraph={
+        <>
+          Open-source and cloud-native orchestration tool for workflow automation.
+          <div style={{ paddingBottom: '1rem' }} />
+          A new scalable and extensible modern approach to automation focused on
+          the end user experience with lower cost and increased productivity.
+        </>
+      }
+      imgAlt="Flow"
+      imgSrc={workflowEditor}
+      listItems={[
+        'Orchestrate jobs on Kubernetes',
+        'A "no/low-code" experience for non-technical users',
+        'Translate technical complexities into friendly easy to navigate interface'
+      ]}
+      linkButtons={[
+        {
+          text: 'Overview',
+          link: '/flow',
+        },
+        {
+          text: 'Documentation',
+          link: '/docs/boomerang-flow/introduction/getting-started',
+        },
+        {
+          text: 'Demo',
+          link: '/flow/#demo',
+        },
+      ]}
+    />
     <Skills
       title="Bosun"
       paragraph={
@@ -36,23 +69,6 @@ export default () => (
           text: 'Try Me',
           link: 'https://try.useboomerang.io/public/bosun/web/bosun',
           renderIcon: Launch16,
-        },
-      ]}
-    />
-    <Skills
-      reverse
-      title="Flow"
-      paragraph="Cloud-native workflow automation"
-      imgAlt="Flow"
-      imgSrc={professor}
-      listItems={[
-        'Orchestrate jobs on Kubernetes',
-        '"Low-code" workflow creation',
-      ]}
-      linkButtons={[
-        {
-          text: 'Get Started',
-          link: '/docs/boomerang-flow/introduction/getting-started',
         },
       ]}
     />
