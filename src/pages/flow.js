@@ -1,7 +1,10 @@
 import React from 'react';
 import { Intro, FlowInfoSection } from '../components/flow'
 import { Layout, SEO } from '../components/common'
-import { Execution, Insights, Tasks, WorkflowEditor } from '../components/graphics/img'
+import Execution from '../components/graphics/img/Execution.png'
+import Insights from '../components/graphics/img/Insights.png'
+import Tasks from '../components/graphics/img/Tasks.png'
+import WorkflowEditor from '../components/graphics/img/WorkflowEditor.png'
 
 export default function Flow() {
   React.useEffect(() => {
