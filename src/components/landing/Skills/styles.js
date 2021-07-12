@@ -20,7 +20,7 @@ export const SkillsWrapper = styled.div`
 `
 
 export const Details = styled.section`
-  flex: 1;
+  width: 48%;
 
   @media (max-width: 960px) {
     padding-left: unset;
@@ -44,7 +44,7 @@ export const Details = styled.section`
 
   ul {
     margin-left: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     list-style: initial;
   }
 
@@ -60,19 +60,23 @@ export const Details = styled.section`
 `
 
 export const Thumbnail = styled.div`
-  flex: 1;
+  width: 48%;
 
   @media (max-width: 960px) {
-    width: 100%;
     margin-bottom: 2rem;
+    width: 100%;
   }
 `
 
 export const ButtonLinkSection = styled.section`
-  display: flex;
   align-items: center;
-  * + * {
-    margin-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  a {
+    margin-right: 1rem;
+    margin-top: 1rem;
   }
 `
 

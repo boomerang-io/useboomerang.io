@@ -22,7 +22,7 @@ export const Skills = ({
   <Wrapper id={title}>
     <SkillsWrapper reverse={reverse} as={Container}>
       <Thumbnail>
-        <img style={{ height: '20rem' }} src={imgSrc} alt={imgAlt} />
+        <img style={{ maxHeight: '20rem', maxWidth: '100%' }} src={imgSrc} alt={imgAlt} />
       </Thumbnail>
       <Details reverse={reverse}>
         <h1>{title}</h1>
