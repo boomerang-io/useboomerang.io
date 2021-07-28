@@ -74,8 +74,22 @@
 }
 
 .youtubeVideo {
-  height: 100%;
+  aspect-ratio: 16/9;
   max-height: 30rem;
   width: 100%;
   z-index: 1;
+}
+
+@media (max-width: 960px) { 
+  .content {
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+
+  }  
+
+  .leftContent, .rightContent {
+    width: 100%;
+  }
+
 }
