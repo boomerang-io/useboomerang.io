@@ -23,7 +23,7 @@ export const FlowInfoSection = ({ descriptionArray = [], id, imageSrc, subtitle,
   const VideoImageContent = () => {
     if(imageSrc) return <img className={styles.contentImage} src={imageSrc}/>;
     if(videoSrc) return (
-      <>
+      <div className={styles.videoContainer}>
         {videoIsLoading && <div className={styles.videoLoading}><Loading withOverlay={false} /></div>}
         <iframe
           allowFullScreen
@@ -33,7 +33,7 @@ export const FlowInfoSection = ({ descriptionArray = [], id, imageSrc, subtitle,
           onLoad={() => setVideoIsLoading(false)}
           src={videoSrc}
         />
-      </>
+      </div>
     );
 
     return null;

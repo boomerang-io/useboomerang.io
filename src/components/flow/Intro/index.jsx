@@ -30,15 +30,17 @@ export const Intro = () => {
           </Link>
         </div>
         <div className={styles.rightContent}>
-          {videoIsLoading && <div className={styles.videoLoading}><Loading withOverlay={false} /></div>}
-          <iframe 
-            allowFullScreen
-            className={styles.youtubeVideo}
-            frameborder="0"
-            loading="lazy"
-            onLoad={() => setVideoIsLoading(false)}
-            src="https://www.youtube.com/embed/-lOninwMoz4?start=0"
-          />
+          <div className={styles.videoContainer}>
+            {videoIsLoading && <div className={styles.videoLoading}><Loading withOverlay={false} /></div>}
+            <iframe 
+              allowFullScreen
+              className={styles.youtubeVideo}
+              frameborder="0"
+              loading="lazy"
+              onLoad={() => setVideoIsLoading(false)}
+              src="https://www.youtube.com/embed/-lOninwMoz4?start=0"
+            />
+          </div>
         </div>
       </div>
       <SectionTransition whiteToDark />
