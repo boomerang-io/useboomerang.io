@@ -92,14 +92,15 @@
   width: 100%;
 }
 
-@media (max-width: 960px) { 
+@media (max-width: 960px) {
   .content {
     align-items: start;
     flex-direction: column;
     gap: 2rem;
-  }  
+  }
 
-  .leftContent, .rightContent {
+  .leftContent,
+  .rightContent {
     width: 100%;
   }
 }
