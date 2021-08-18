@@ -17,4 +17,4 @@ export const SectionTransition = ({ whiteToDark }) => {
   )
 }
 
-export default SectionTransition;
+export default SectionTransition

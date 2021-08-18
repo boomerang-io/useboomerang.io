@@ -7,20 +7,9 @@ export const Footer = () => (
 	<Wrapper>
 		<Flex as={Container}>
 			<Details>
-				<h2>Boomerang, a collection of IBM open source projects</h2>
+				<h2>Boomerang, a collection of open source projects for CI/CD and automation</h2>
 				<span>
-					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
-					<span aria-label="robot" role="img">
-						🤖
-					</span>{' '}
-					by{' '}
-					<a
-						href="https://developer.ibm.com/open/"
-						rel="noopener noreferrer"
-						target="_blank"
-					>
-						IBM open source
-					</a>
+				{new Date().getFullYear()} © Boomerang Project Authors. All rights are reserved.
 				</span>
 			</Details>
 			<Links>
