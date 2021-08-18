@@ -29,7 +29,7 @@ export default () => (
       ]}
       linkButtons={[
         {
-          text: 'Overview',
+          text: 'Learn More',
           link: '/flow',
         },
         {
@@ -37,8 +37,9 @@ export default () => (
           link: '/docs/boomerang-flow/introduction/getting-started',
         },
         {
-          text: 'Demo',
-          link: '/flow/#demo',
+          text: 'Run Locally',
+          link: 'https://costel-moraru.medium.com/lets-put-boomerang-flow-on-our-laptop-8a63eac2b9e5',
+          renderIcon: Launch16,
         },
       ]}
     />
