@@ -27,6 +27,7 @@
 .flowLogo {
   margin-right: 0.5rem;
   width: 1.5rem;
+  height: 1.5rem;
 }
 
 .flowText {
@@ -63,6 +64,14 @@
   width: 48%;
 }
 
+// ofc safari doesn't support aspect-ratio
+// https://web.dev/aspect-ratio/
+.videoContainer {
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
 .videoLoading {
   align-items: center;
   display: flex;
@@ -71,11 +80,27 @@
   position: absolute;
   width: 100%;
   z-index: 0;
+  top: 0;
 }
 
 .youtubeVideo {
+  position: absolute;
+  top: 0;
+  z-index: 1;
   height: 100%;
   max-height: 30rem;
   width: 100%;
-  z-index: 1;
+}
+
+@media (max-width: 960px) {
+  .content {
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .leftContent,
+  .rightContent {
+    width: 100%;
+  }
 }
