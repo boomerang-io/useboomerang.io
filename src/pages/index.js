@@ -68,7 +68,7 @@ export default () => (
         },
         {
           text: 'Try Me',
-          link: 'https://try.useboomerang.io/public/bosun/web/bosun',
+          link: 'https://try.useboomerang.io/bosun/web/bosun',
           renderIcon: Launch16,
         },
       ]}
