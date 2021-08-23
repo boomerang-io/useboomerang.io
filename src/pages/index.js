@@ -33,8 +33,9 @@ export default () => (
           link: '/flow',
         },
         {
-          text: 'Documentation',
-          link: '/docs/boomerang-flow/introduction/getting-started',
+          text: 'Try Me',
+          link: 'https://try.useboomerang.io/flow/apps/flow',
+          renderIcon: Launch16,
         },
         {
           text: 'Run Locally',
@@ -68,7 +69,7 @@ export default () => (
         },
         {
           text: 'Try Me',
-          link: 'https://try.useboomerang.io/public/bosun/web/bosun',
+          link: 'https://try.useboomerang.io/bosun/web/bosun',
           renderIcon: Launch16,
         },
       ]}
