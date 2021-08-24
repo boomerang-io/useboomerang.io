@@ -41,13 +41,14 @@ export default function Flow() {
       <FlowInfoSection
         id="demo"
         theme="light"
-        title="Demo"
+        title="A Raw Introduction"
         descriptionArray={[
-          'Brief look through the admin side of Flow.',
-          'Step-by-step introduction into creating a demo workflow.',
+          'An introduction to Boomerang Flow',
+          'What is it?',
+          'What does it do?',
           'Execute and check the results of the newly created workflow.',
         ]}
-        videoSrc="https://www.youtube.com/embed/-lOninwMoz4?start=1407"
+        videoSrc="https://www.youtube.com/embed/erBEQdBHFJU?start=0"
       />
       <FlowInfoSection
         id="tasks"
@@ -82,6 +83,17 @@ export default function Flow() {
           'status percentage breakdown.',
         ]}
         imageSrc={Insights}
+      />
+      <FlowInfoSection
+        id="demo"
+        theme="light"
+        title="Demo"
+        descriptionArray={[
+          'Brief look through the admin side of Flow.',
+          'Step-by-step introduction into creating a demo workflow.',
+          'Execute and check the results of the newly created workflow.',
+        ]}
+        videoSrc="https://www.youtube.com/embed/-lOninwMoz4?start=1407"
       />
     </Layout>
   )
