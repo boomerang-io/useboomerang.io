@@ -19,7 +19,7 @@ export const Intro = () => {
             <p className={styles.flowText}>Boomerang Flow</p>
           </div>
           <p className={styles.flowTitle}>
-            Cloud-native orchestration tool for workflow automation
+            Event-driven cloud-native workflow automation and orchestration tool
           </p>
           <p className={styles.flowDescription}>
             A new scalable and extensible modern approach to automation focused
