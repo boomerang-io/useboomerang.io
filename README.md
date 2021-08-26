@@ -14,7 +14,10 @@
 │   │   │── landing         # Components used on the landing page
 │   │   └── theme           # Header & Footer
 │   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
+├── static                  # Icons, favicon & SVG illustrations
+└── content                 # Documentation for the Boomerang solutions
+    ├── boomerang-bosun     # Documentation for each Bosun version
+    └── boomerang-flow      # Documentation for each Flow version
 ```
 
 ## Prerequisites
