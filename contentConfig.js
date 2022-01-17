@@ -27,12 +27,6 @@ const config = {
           path: '/docs/boomerang-flow/introduction/overview',
         },
         {
-          title: 'Architecture',
-          description:
-            'Provides the architecture, the patterns, technologies, and implementation.',
-          path: '/docs/boomerang-flow/architecture/overview',
-        },
-        {
           title: 'Getting to Know',
           description: 'Familiarize yourself with the functionality available',
           path: '/docs/boomerang-flow/getting-to-know/workflows',
@@ -41,6 +35,12 @@ const config = {
           title: 'How to Guide',
           description: 'Deep dive into how to perform different functions.',
           path: '/docs/boomerang-flow/how-to-guide/managing-workflows',
+        },
+        {
+          title: 'Architecture',
+          description:
+            'Provides the architecture, the patterns, technologies, and implementation.',
+          path: '/docs/boomerang-flow/architecture/overview',
         },
         {
           title: 'Installing',
