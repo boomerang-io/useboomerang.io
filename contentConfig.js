@@ -81,8 +81,9 @@ const config = {
       solution: 'boomerang-flow',
       categoryOrder: [
         'introduction',
-        'architecture',
         'getting-to-know',
+        'how-to-guide',
+        'architecture',
         'installing',
       ],
     },
