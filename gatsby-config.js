@@ -26,10 +26,6 @@ module.exports = {
     socialLinks: config.socialLinks,
     navLinks: [
       {
-        name: 'Home',
-        url: '/',
-      },
-      {
         name: 'Flow',
         url: '/flow',
       },
