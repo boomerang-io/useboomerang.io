@@ -69,7 +69,7 @@ const config = {
           title: 'Architecture',
           description:
             'Provides the architecture, the patterns, technologies, and implementation.',
-          path: '/docs/boomerang-bosun/architecture/overview',
+          path: '/docs/boomerang-bosun/architecture/application-architecture',
           image: 'process-delivery-accelerator',
         },
       ],
