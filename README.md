@@ -22,7 +22,7 @@
 
 ## Prerequisites
 
-[Yarn](https://yarnpkg.com/en/)
+### [Yarn](https://yarnpkg.com/en/)
 
 Please create a new file `.env.development` and put this env variable with your GitHub token
 
@@ -30,6 +30,12 @@ Please create a new file `.env.development` and put this env variable with your 
 
 ```bash
 GITHUB_TOKEN=xxxxxxxxxx
+```
+
+### Python
+
+```sh
+brew install python
 ```
 
 ## Installing
