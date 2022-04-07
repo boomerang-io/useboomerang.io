@@ -5,6 +5,8 @@ import Execution from '../components/graphics/img/Execution.png'
 import Insights from '../components/graphics/img/Insights.png'
 import Tasks from '../components/graphics/img/Tasks.png'
 import WorkflowEditor from '../components/graphics/img/WorkflowEditor.png'
+import Launch16 from '@carbon/icons-react/es/launch/16'
+import ArrowRight16 from '@carbon/icons-react/es/arrow--right/16'
 
 export default function Flow() {
   React.useEffect(() => {
