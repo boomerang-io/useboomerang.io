@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/components/flow/Sponsor/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
