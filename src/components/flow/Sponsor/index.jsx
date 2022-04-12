@@ -1,7 +1,5 @@
 import React from 'react'
-import { Button } from '@boomerang-io/carbon-addons-boomerang-react'
-import * as styles from './Intro.module.scss'
-import { ButtonLinkSection } from '../../landing/Skills/styles'
+import * from 'index.css'
 
 export const Sponsor = () => (
     <section className="pt-20 2xl:pt-40 pb-40 2xl:pb-80 overflow-hidden">
