@@ -1,9 +1,7 @@
 import React from 'react'
 import { Button } from '@boomerang-io/carbon-addons-boomerang-react'
-import FlowablLogo from '../../graphics/FlowablLogo'
 import * as styles from './Intro.module.scss'
 import { ButtonLinkSection } from '../../landing/Skills/styles'
-import './index.css';
 
 export const Sponsor = () => (
     <section className="pt-20 2xl:pt-40 pb-40 2xl:pb-80 overflow-hidden">
@@ -15,7 +13,7 @@ export const Sponsor = () => (
             <div className="flex flex-wrap items-top -mx-10">
                 <div className="relative w-full lg:w-1/2 px-10 mb-16 lg:mb-0">
                     <div className="relative lg:max-w-md lg:ml-auto z-10">
-                        <FlowLogo className="object-cover w-full lg:w-112 h-160" alt="Flowabl" />
+                        <img className="object-cover w-full lg:w-112 h-160" src="../components/graphics/img/flowabl-logo.svg" alt="" />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 px-10">
