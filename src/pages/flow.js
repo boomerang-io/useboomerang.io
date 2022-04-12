@@ -38,8 +38,8 @@ export default function Flow() {
           },
           {
             text: 'Try Me',
-            link: 'https://try.useboomerang.io/flow/apps/flow',
-            renderIcon: Launch16,
+            link: '/try',
+            renderIcon: ArrowRight16,
           },
           {
             text: 'Run Locally',

@@ -3,6 +3,7 @@ import { Intro, Skills, Projects } from '../components/landing'
 import { Layout, SEO } from '../components/common'
 import workflowEditor from '../components/graphics/img/WorkflowEditor.png'
 import Launch16 from '@carbon/icons-react/es/launch/16'
+import ArrowRight16 from '@carbon/icons-react/es/arrow--right/16'
 import bosun from '../../static/illustrations/bosun.svg'
 
 export default () => (
@@ -31,11 +32,12 @@ export default () => (
         {
           text: 'Learn More',
           link: '/flow',
+          renderIcon: ArrowRight16,
         },
         {
           text: 'Try Me',
-          link: 'https://try.useboomerang.io/flow/apps/flow',
-          renderIcon: Launch16,
+          link: '/try',
+          renderIcon: ArrowRight16,
         },
         {
           text: 'Run Locally',
