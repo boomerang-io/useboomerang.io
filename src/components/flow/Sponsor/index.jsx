@@ -1,5 +1,4 @@
 import React from 'react'
-import * from 'index.css'
 
 export const Sponsor = () => (
     <section className="pt-20 2xl:pt-40 pb-40 2xl:pb-80 overflow-hidden">
