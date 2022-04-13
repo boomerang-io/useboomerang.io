@@ -1,6 +1,7 @@
 import React from 'react'
 import { Layout } from '../components/common'
 import { Sponsor } from '../components/flow'
+import '../../dist/index.css'
 
 export default function Try() {
   React.useEffect(() => {
@@ -19,7 +20,7 @@ export default function Try() {
   }, [])
   return (
     <Layout>
-        <Sponsor />
+      <Sponsor />
     </Layout>
   )
 }
