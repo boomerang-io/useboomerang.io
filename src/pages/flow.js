@@ -5,6 +5,8 @@ import Execution from '../components/graphics/img/Execution.png'
 import Insights from '../components/graphics/img/Insights.png'
 import Tasks from '../components/graphics/img/Tasks.png'
 import WorkflowEditor from '../components/graphics/img/WorkflowEditor.png'
+import Launch16 from '@carbon/icons-react/es/launch/16'
+import ArrowRight16 from '@carbon/icons-react/es/arrow--right/16'
 
 export default function Flow() {
   React.useEffect(() => {
@@ -27,7 +29,25 @@ export default function Flow() {
         title="Boomerang Flow"
         description="Open-source and cloud-native orchestration tool for workflow automation"
       />
-      <Intro />
+      <Intro 
+        linkButtons={[
+          {
+            text: 'Get Started',
+            link: '/docs/boomerang-flow/introduction/getting-started',
+            renderIcon: ArrowRight16,
+          },
+          {
+            text: 'Try Me',
+            link: '/try',
+            renderIcon: ArrowRight16,
+          },
+          {
+            text: 'Run Locally',
+            link: 'https://costel-moraru.medium.com/lets-put-boomerang-flow-on-our-laptop-8a63eac2b9e5',
+            renderIcon: Launch16,
+          },
+        ]}
+      />
       <FlowInfoSection
         id="workflows"
         title="Workflows"

@@ -23,12 +23,10 @@ module.exports = {
     solutionsConfig: contentConfig.solutionsConfig,
     footerLinksConfig: contentConfig.footerLinksConfig,
     standaloneMode: true,
+    uiShellProductName: 'IO',
     socialLinks: config.socialLinks,
+    isGaActive: false,
     navLinks: [
-      {
-        name: 'Home',
-        url: '/',
-      },
       {
         name: 'Flow',
         url: '/flow',
@@ -45,7 +43,6 @@ module.exports = {
       options: { lunrSearch: true },
     },
     'gatsby-plugin-styled-components',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-graphql',
       options: {
@@ -53,17 +50,10 @@ module.exports = {
         fieldName: 'github',
         url: 'https://api.github.com/graphql',
         headers: {
-          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
         },
         fetchOptions: {},
       },
     },
-    // {
-    //   resolve: 'gatsby-plugin-google-analytics',
-    //   options: {
-    //     trackingId: config.googleAnalyticsID,
-    //     head: true,
-    //   },
-    // },
   ],
 }

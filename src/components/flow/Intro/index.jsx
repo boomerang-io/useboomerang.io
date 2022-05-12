@@ -3,10 +3,12 @@ import SectionTransition from '../SectionTransition'
 import Link from '@boomerang-io/gatsby-theme-boomerang/src/components/Link'
 import { Button, Loading } from '@boomerang-io/carbon-addons-boomerang-react'
 import FlowLogo from '../../graphics/FlowLogo'
-import ArrowRight16 from '@carbon/icons-react/es/arrow--right/16'
 import * as styles from './Intro.module.scss'
+import {
+  ButtonLinkSection,
+} from '../../landing/Skills/styles'
 
-export const Intro = () => {
+export const Intro = ({ linkButtons }) => {
   const [videoIsLoading, setVideoIsLoading] = React.useState(true)
 
   return (
@@ -26,9 +28,13 @@ export const Intro = () => {
             on the end user experience with lower cost and increased
             productivity
           </p>
-          <Link to={'/docs/boomerang-flow/introduction/getting-started'}>
-            <Button renderIcon={ArrowRight16}>Get Started</Button>
-          </Link>
+          {linkButtons && (
+            <ButtonLinkSection>
+              {linkButtons.map(item => (
+                <Link to={item.link}><Button size="field" renderIcon={item.renderIcon}>{item.text}</Button></Link>
+              ))}
+            </ButtonLinkSection>
+          )}
         </div>
         <div className={styles.rightContent}>
           <div className={styles.videoContainer}>
