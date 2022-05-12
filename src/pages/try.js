@@ -1,7 +1,6 @@
 import React from 'react'
-import { Layout } from '../components/common'
+import { Layout, SEO } from '../components/common'
 import { Sponsor } from '../components/flow'
-import '../../dist/index.css'
 
 export default function Try() {
   React.useEffect(() => {
@@ -20,6 +19,10 @@ export default function Try() {
   }, [])
   return (
     <Layout>
+      <SEO
+        title="Try Boomerang Flow with the Flowabl Explorer Tier"
+        description="Hosted no-code workflow automation based on Boomerang Flow"
+      />  
       <Sponsor />
     </Layout>
   )
