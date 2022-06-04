@@ -7,7 +7,7 @@
   "dependencies": {
     "@boomerang-io/carbon-addons-boomerang-react": "^2.0.1",
     "@boomerang-io/gatsby-theme-boomerang": "1.0.6",
-    "@carbon/icons-react": "^10.17.0",
+    "@carbon/icons-react": "^11.3.0",
     "dotenv": "^6.2.0",
     "gatsby": "^4.5.4",
     "gatsby-plugin-google-analytics": "^4.12.1",
