@@ -71,6 +71,7 @@ const config = {
             'Provides the architecture, the patterns, technologies, and implementation.',
           path: '/docs/boomerang-bosun/architecture/application-architecture',
           image: 'process-delivery-accelerator',
+          imageHref: '',
         },
       ],
     },
