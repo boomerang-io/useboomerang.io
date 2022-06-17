@@ -12,6 +12,8 @@ module.exports = {
   siteMetadata: {
     author: config.author,
     title: 'Boomerang',
+    description: 'Boomerang OSS documentation',
+    platformName: 'Boomerang.io',
     docsContext: '/docs',
     docsLocation:
       'https://github.com/boomerang-io/useboomerang.io/tree/main/content',
