@@ -20,9 +20,9 @@ export default function Try() {
   return (
     <Layout>
       <SEO
-        title="Try Boomerang Flow with the Flowabl Explorer Tier"
+        title="Try | Boomerang.io"
         description="Hosted no-code workflow automation based on Boomerang Flow"
-      />  
+      />
       <Sponsor />
     </Layout>
   )

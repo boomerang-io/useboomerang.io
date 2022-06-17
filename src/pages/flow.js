@@ -26,10 +26,10 @@ export default function Flow() {
   return (
     <Layout>
       <SEO
-        title="Boomerang Flow"
+        title="Boomerang Flow | Boomerang.io"
         description="Open-source and cloud-native orchestration tool for workflow automation"
       />
-      <Intro 
+      <Intro
         linkButtons={[
           {
             text: 'Get Started',
@@ -43,7 +43,8 @@ export default function Flow() {
           },
           {
             text: 'Run Locally',
-            link: 'https://costel-moraru.medium.com/lets-put-boomerang-flow-on-our-laptop-8a63eac2b9e5',
+            link:
+              'https://costel-moraru.medium.com/lets-put-boomerang-flow-on-our-laptop-8a63eac2b9e5',
             renderIcon: Launch16,
           },
         ]}
