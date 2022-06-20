@@ -11,7 +11,7 @@ module.exports = {
   pathPrefix: '/BMRG_APP_ROOT_CONTEXT',
   siteMetadata: {
     author: config.author,
-    title: 'Boomerang',
+    title: 'Docs',
     description: 'Boomerang OSS documentation',
     platformName: 'Boomerang.io',
     docsContext: '/docs',
