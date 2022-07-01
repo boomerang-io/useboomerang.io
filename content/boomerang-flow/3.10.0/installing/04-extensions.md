@@ -46,6 +46,10 @@ oauth_config:
       - users:read.email
       - chat:write
 settings:
+  event_subscriptions:
+    request_url: https://<URL_REPLACE_ME>/apis/v1/extensions/slack/events?access_token=<GLOBAL_TOKEN_REPLACE_ME>
+    bot_events:
+      - app_home_opened
   interactivity:
     is_enabled: true
     request_url: https://<URL_REPLACE_ME>/apis/v1/extensions/slack/interactivity?access_token=<GLOBAL_TOKEN_REPLACE_ME>
