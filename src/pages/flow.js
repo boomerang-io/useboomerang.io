@@ -26,7 +26,7 @@ export default function Flow() {
   return (
     <Layout>
       <SEO
-        title="Boomerang Flow | Boomerang.io"
+        title="Boomerang Flow - Boomerang.io"
         description="Open-source and cloud-native orchestration tool for workflow automation"
       />
       <Intro
