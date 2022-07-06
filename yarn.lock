@@ -1081,32 +1081,7 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
-"@boomerang-io/carbon-addons-boomerang-react@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@boomerang-io/carbon-addons-boomerang-react/-/carbon-addons-boomerang-react-2.0.7.tgz#a606bdf8c225a8660c8eb9583d6847a59266a2b4"
-  integrity sha512-C5bpGMgRxgAaH8FXK1trmRbgoPDm5YDhUBq/qQESoebtd6gQFvDbw+Ac/LcTVtmszfv05D2Uk8D4C2VfxgUFLw==
-  dependencies:
-    "@babel/runtime" "7.18.3"
-    "@carbon/themes" "10.52.0"
-    "@stomp/stompjs" "6.1.2"
-    "@tippyjs/react" "4.2.6"
-    classnames "2.3.1"
-    date-fns "2.28.0"
-    dompurify "2.3.8"
-    downshift "6.1.7"
-    focus-trap-react "8.9.1"
-    js-file-download "0.4.12"
-    lodash.get "4.4.2"
-    lodash.isequal "4.5.0"
-    lodash.sortby "4.7.0"
-    match-sorter "6.3.1"
-    react-autosuggest "10.1.0"
-    react-modal "3.15.1"
-    react-toastify "9.0.5"
-    sockjs-client "1.6.0"
-    window-or-global "1.0.1"
-
-"@boomerang-io/carbon-addons-boomerang-react@^2.0.8":
+"@boomerang-io/carbon-addons-boomerang-react@2.0.8", "@boomerang-io/carbon-addons-boomerang-react@^2.0.8":
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/@boomerang-io/carbon-addons-boomerang-react/-/carbon-addons-boomerang-react-2.0.8.tgz#a5ac7379206475afb26b841690a2c7b733a3f5b9"
   integrity sha512-Mc5TGHV14V25OesQvFZYJfbNbzM/tRPPWJ8gZ/5aKyHBJw9EZpJJk3bR+emPGid1CNdd31y6UALaGiuiV0MRGA==
@@ -1131,12 +1106,12 @@
     sockjs-client "1.6.0"
     window-or-global "1.0.1"
 
-"@boomerang-io/gatsby-theme-boomerang@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@boomerang-io/gatsby-theme-boomerang/-/gatsby-theme-boomerang-1.2.2.tgz#ade223e6e061950d2aeeb426b5a9776a9e47d61d"
-  integrity sha512-yjzz8klPNpCgrbq4o0E2NcGpHG6ryHuuCQVWRHXXzYV0bwtWMLjJ0jtoyZgOSPEyYeAAPGchXvLYSWxoFv2OSg==
+"@boomerang-io/gatsby-theme-boomerang@1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@boomerang-io/gatsby-theme-boomerang/-/gatsby-theme-boomerang-1.2.3.tgz#8d46fd3c682ea6a9f737da8273ecec301ef7da45"
+  integrity sha512-ySoW4EQa+vS34uQLa5xxuToA0kXWJFUZQpwGUoYNcE3rfhdUv3DG+xCTq+xpkKB+XnpGB7Pzx49Rkt6W5mHEKA==
   dependencies:
-    "@boomerang-io/carbon-addons-boomerang-react" "2.0.7"
+    "@boomerang-io/carbon-addons-boomerang-react" "2.0.8"
     "@boomerang-io/styles" "^1.1.0"
     "@carbon/icons-react" "10.38.0"
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search" "3.0.2"
